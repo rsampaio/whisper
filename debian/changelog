@@ -1,0 +1,5 @@
+python-whisper (0.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- root <root@squeezo>  Mon, 14 May 2012 19:34:46 +0000

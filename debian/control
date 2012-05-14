@@ -1,0 +1,18 @@
+Source: python-whisper
+Section: python
+Priority: extra
+Maintainer: Rodrigo Sampaio Vaz <rodrigo.vaz@gmail.com>
+Build-Depends: debhelper
+Standards-Version: 3.8.4
+Homepage: http://graphite.wikidot.org
+#Vcs-Git: git://git.debian.org/collab-maint/python-whisper.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/python-whisper.git;a=summary
+
+Package: python-whisper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ database engine for fast, reliable fixed-sized databases
+ Whisper is a fixed size database, similar in design to the Round Robin
+ database tool (RRDtool). Whisper is used by the Graphite scalable real
+ time graphing system to store time-series data for later display.
